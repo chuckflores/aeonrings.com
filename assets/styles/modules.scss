@@ -1,0 +1,11 @@
+.grid {
+	@include clearfix;
+	margin: 0 -1.25rem;
+}
+
+.grid-unit {
+	display: block;
+	float: left;
+	padding: 0 1.25rem;
+	width: 100%;
+}

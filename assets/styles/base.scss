@@ -1,0 +1,41 @@
+$futura: "futura-pt", sans-serif; // 500
+
+$text-body: rgb(210,210,210);
+$text-heading: rgb(240,240,240);
+$text-secondary: rgb(160,160,160);
+$text-link: white;
+$text-link-hover: white;
+
+
+html {
+	@media screen and (min-width: 50em) { font-size: 112.5%; }
+	@media screen and (min-width: 100em) { font-size: 125%; }
+}
+
+
+body {
+	background-color: rgb(20,20,20);
+	color: $text-body;
+	font-family: $futura;
+	font-size: 1rem;
+	font-weight: 400;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+	color: $text-heading;
+	font-family: $futura;
+	font-weight: 500;
+}
+
+
+a,
+a:visited,
+a:active {
+	color: $text-link;
+	text-decoration: none;
+	@include transition (color 0.2s ease-in-out);
+	&:hover {
+		color: $text-link-hover;
+	}
+}

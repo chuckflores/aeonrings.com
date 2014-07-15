@@ -1,0 +1,89 @@
+.container {
+	margin: 0 auto;
+	max-width: 700px;
+	width: 94%;
+}
+
+#video .container {
+	max-width: 1000px;
+}
+
+.logo {
+	background: url(../img/aeon-rings-logo.png) top left no-repeat;
+	background-size: 300px 41px;
+	display: block;
+	height: 41px;
+	margin: 15% auto 4rem;
+	text-indent: -9999px;
+	width: 300px;
+}
+
+#video {
+	margin: 4rem 0;
+
+	h1 {
+		margin-bottom: 0.75rem;
+		text-align: center;
+	}
+}
+
+#shows {
+	margin: 2rem 0 4rem;
+
+	h1 {
+		border-bottom: 1px solid rgba(255,255,255,0.05);
+		margin-bottom: 2rem;
+		padding-bottom: 0.5rem;
+		text-align: center;
+	}
+}
+
+.event {
+	margin: 0 0 2rem;
+	padding-right: 1rem;
+	vertical-align: top;
+
+	time {
+		color: $text-secondary;
+		display: block;
+		font-size: 0.875rem;
+		margin: 0 0 0.5rem;
+		text-transform: uppercase;
+	}
+
+	.location {
+		display: none;
+	}
+
+	h2 {
+		font-size: 1.3rem;
+		margin: 0;
+	}
+
+	h3 {
+		color: $text-secondary;
+		font-size: 1rem;
+		margin: 0 0 0.5rem;
+	}
+
+	@media screen and (min-width: 40em) {
+		display: inline-block;
+		width: 33.33333333%;
+	}
+}
+
+.social-links {
+	text-align: center;
+	@extend %bare-list;
+	@extend %horizontal-list;
+
+	li {
+		max-width: 30px;
+	}
+}
+
+
+.email {
+	margin: 1rem 0 3rem;
+	text-align: center;
+}
