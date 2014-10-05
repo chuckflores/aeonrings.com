@@ -24,6 +24,20 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+<<<<<<< HEAD
+=======
+	"\/assets\/images\/floods-ep-cover.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 55809,
+		"inputAbbreviatedPath": "\/assets\/images\/floods-ep-cover.jpg",
+		"outputAbbreviatedPath": "\/assets\/images\/floods-ep-cover.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+>>>>>>> aeonrings-edit
 	"\/assets\/images\/soundcloud-icon.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -73,6 +87,25 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
+<<<<<<< HEAD
+=======
+	"\/assets\/stylesheets\/_layout.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/stylesheets\/_layout.scss",
+		"outputAbbreviatedPath": "\/assets\/stylesheets\/_layout.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+>>>>>>> aeonrings-edit
 	"\/assets\/stylesheets\/_mixins.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
@@ -1225,6 +1258,18 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
+<<<<<<< HEAD
+=======
+	"\/assets\/stylesheets\/screen.css": {
+		"fileType": 16,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/stylesheets\/screen.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+>>>>>>> aeonrings-edit
 	"\/assets\/stylesheets\/screen.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
@@ -1240,6 +1285,18 @@
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
+<<<<<<< HEAD
+=======
+		},
+	"\/index.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/index.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+>>>>>>> aeonrings-edit
 		}
 	},
 "hooks": [
